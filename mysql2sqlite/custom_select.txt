@@ -1,0 +1,1 @@
+turma: SELECT * FROM TURMA WHERE periodo = "2018.2";
