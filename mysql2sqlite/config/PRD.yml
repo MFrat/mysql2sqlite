@@ -1,19 +1,16 @@
 DATABASE_HOST: localhost
 DATABASE_PORT: 3306
-DATABASE_NAME: icbanco
+DATABASE_NAME: banco
 DATABASE_USERNAME: root
-DATABASE_PASSWORD: CompUFF+2017
+DATABASE_PASSWORD: root
 
 OUTER_TABLES_SCRIPT: script.sql
 CUSTOM_SELECT_FILE: custom_select.txt
 
+SQLITE_OUTPUT_NAME: ic.db
+
 IGNORED_TABLES:
-  - usuario
-  - funcionalidade
-  - autoridade
-  - configuracao
-  - usuario_autoridade
-  - funcionalidade_autoridade
+  - table1
 
 IGNORED_INSERTS:
-  - status_professor
+  - table1
