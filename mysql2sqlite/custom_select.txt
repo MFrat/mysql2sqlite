@@ -1,1 +1,2 @@
-turma: SELECT * FROM TURMA WHERE periodo = "2018.2";
+table1: SELECT * FROM TABLE1 WHERE attr = "2018.2";
+table2: SELECT * FROM TABLE2 WHERE attr = "2018.2";
