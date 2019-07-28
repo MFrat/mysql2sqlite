@@ -1,2 +1,2 @@
-table1: SELECT * FROM TABLE1 WHERE attr = "2018.2";
-table2: SELECT * FROM TABLE2 WHERE attr = "2018.2";
+turma: SELECT * FROM turma WHERE periodo = "2018.2";
+aula: SELECT aula.* FROM aula JOIN turma ON aula.idTurma = turma.id WHERE turma.periodo = "2018.2";

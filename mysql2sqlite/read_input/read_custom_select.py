@@ -12,7 +12,7 @@ def _read_file(filename):
 
 
 def _filter(string):
-    string = re.sub('\s{2,}', ' ', string)
+    string = re.sub(r'\s{2,}', ' ', string)
     return string.replace('\n', ' ')
 
 

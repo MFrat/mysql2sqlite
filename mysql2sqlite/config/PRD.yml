@@ -1,16 +1,18 @@
 DATABASE_HOST: localhost
 DATABASE_PORT: 3306
-DATABASE_NAME: banco
-DATABASE_USERNAME: root
-DATABASE_PASSWORD: root
+DATABASE_NAME: icbanco
+DATABASE_USERNAME: local
+DATABASE_PASSWORD: local
 
 OUTER_TABLES_SCRIPT: script.sql
 CUSTOM_SELECT_FILE: custom_select.txt
 
-SQLITE_OUTPUT_NAME: ic.db
+SQLITE_OUTPUT_NAME: bancoIC.db
 
 IGNORED_TABLES:
-  - table1
+  - usuario
+  - usuario_autoridade
+  - funcionalidade
+  - funcionalidade_autoridade
 
 IGNORED_INSERTS:
-  - table1
